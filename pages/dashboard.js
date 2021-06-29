@@ -8,7 +8,7 @@ const Dashboard = () => (
     </Head>
 
     <Default>
-      <h1>I'm popstar not doctor</h1>
+      <h1>Im popstar not doctor</h1>
     </Default>
   </>
 )
