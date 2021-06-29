@@ -19,6 +19,7 @@ const CreateRoom = () => (
 
           <Button type="submit">
             <svg
+              className="mr-2"
               viewBox="0 0 24 24"
               stroke="currentColor"
               strokeWidth={2}

@@ -9,6 +9,10 @@ module.exports = {
   ],
   darkMode: 'media',
   theme: {
+    container: {
+      padding: '2rem',
+      center: true
+    },
     extend: {},
   },
   variants: {
