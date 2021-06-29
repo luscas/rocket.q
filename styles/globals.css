@@ -1,16 +1,82 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap');
+:root {
+    --primary: #3485FF;
+    --primary__hover: #5699FF;
+    --danger: #E83F5B;
+    --danger__hover: #EA4B65;
+    --secondary: #E5EAF1;
+    --secondary__hover: #EAEFF5;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FBFCFF;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.layout {
+    @apply grid w-screen h-screen overflow-hidden;
 }
 
-* {
-  box-sizing: border-box;
+.other {
+    @apply flex justify-center items-center relative my-8;
+}
+.other::before {
+    content: '';
+    background-color: #A1B2CD;
+    width: 100%;
+    height: 1px;
+    @apply absolute;
+}
+
+.button svg {
+    @apply mr-2 w-5 h-5 inline-block align-middle;
+}
+.button {
+    @apply transition-colors duration-300 py-3 px-6 font-medium rounded-lg align-middle inline-block text-center;
+}
+.button.button__sm {
+    @apply py-2 px-4 text-sm;
+}
+.button.button__primary:not(.button__outline) {
+    background-color: var(--primary);
+}
+.button.button__primary:not(.button__outline):hover {
+    background-color: var(--primary__hover);
+}
+.button.button__danger:not(.button__outline) {
+    background-color: var(--danger);   
+}
+.button.button__danger:not(.button__outline):hover {
+    background-color: var(--danger__hover);
+}
+.button.button__secondary:not(.button__outline) {
+    background-color: var(--secondary);
+    color: #4D5E77;
+}
+.button.button__secondary:not(.button__outline):hover {
+    background-color: var(--secondary__hover);
+    color: red;
+}
+.button.button__primary, .button.button__danger {
+    color: white;
+}
+
+.button__outline.button__primary {
+    border-color: var(--primary);
+    color: var(--primary);
+    @apply border-2;
+}
+.button__outline.button__danger {
+    border-color: var(--danger);
+    color: var(--danger);
+    @apply border-2;
+}
+.button__outline.button__secondary {
+    border-color: var(--secondary);
+    color: #4D5E77;
+    @apply border-2;
 }
