@@ -37,7 +37,7 @@ const Index = () => (
       </form>
 
       <div className="other">
-        <div className="bg-white relative z-10 px-4">ou</div>
+        <div className="bg-[#FBFCFF] relative z-10 px-4">ou</div>
       </div>
 
       <div className="text-[#0D114F] text-3xl font-bold mb-6">

@@ -23,7 +23,7 @@ textarea::placeholder {
 }
 
 .layout {
-    @apply w-screen h-screen overflow-hidden;
+    @apply w-screen h-screen flex flex-col;
 }
 
 .other {
@@ -69,7 +69,9 @@ textarea::placeholder {
 .button.button__primary, .button.button__danger {
     color: white;
 }
-
+.button__outline {
+    @apply bg-white;
+}
 .button__outline.button__primary {
     border-color: var(--primary);
     color: var(--primary);

@@ -123,7 +123,7 @@ const RoomLayoutTransition = ({ children }) => {
         <div className="fixed -top-36 -right-36 md:top-[-387px] md:right-[-406px] rounded-full bg-[#5497f610] w-64 h-64 md:w-[633.55px] md:h-[633.55px]"></div>
       </header>
 
-      <main className="px-8 mt-16 lg:mt-0 lg:px-0 justify-center lg:px-0 py-0 grid lg:grid-cols-2 lg:justify-between lg:items-center h-screen">
+      <main className="px-8 mt-16 lg:mt-0 lg:px-0 justify-center lg:px-0 py-0 grid lg:grid-cols-2 lg:justify-between lg:items-center flex-grow">
         <img
           src="/illustration.png"
           className="mt-[70.17] -ml-6 hidden lg:block"
@@ -131,7 +131,7 @@ const RoomLayoutTransition = ({ children }) => {
           alt="Ilustração"
         />
 
-        <div className="lg:max-w-sm lg:mr-0 md:max-w-md sm:max-w-sm">
+        <div className="lg:max-w-sm sm:mb-10 lg:mr-0 md:max-w-md sm:max-w-sm relative z-10">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
