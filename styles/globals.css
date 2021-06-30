@@ -12,6 +12,10 @@ input {
     font-family: 'Open Sans', sans-serif;
 }
 
+.font-opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #FBFCFF;
