@@ -48,8 +48,8 @@ const Dashboard = () => {
 
         <div className="flex flex-col justify-center items-center text-center my-12">
           <svg
-            width="149"
-            height="135"
+            width={149}
+            height={135}
             viewBox="0 0 149 135"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -62,8 +62,8 @@ const Dashboard = () => {
               fill="url(#paint0_linear)"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M76.4231 66.5012C64.6435 66.5012 55.0943 74.8799 55.0943 85.2155V85.2633C55.0943 95.5989 64.6435 103.978 76.4231 103.978H107.877C109.052 103.978 110.204 103.894 111.328 103.734L117.422 108.898C117.587 109.039 117.809 109.117 118.039 109.117C118.53 109.117 118.928 108.768 118.928 108.338L118.928 101.273C125.089 97.9914 129.206 92.0491 129.206 85.2633V85.2155C129.206 74.8799 119.656 66.5012 107.877 66.5012H76.4231Z"
               fill="#1D4885"
             />
@@ -72,8 +72,8 @@ const Dashboard = () => {
               fill="url(#paint1_linear)"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M20.895 67.3577V81.3535C20.895 81.9688 21.4634 82.4675 22.1646 82.4675C22.4934 82.4675 22.8095 82.3555 23.0461 82.1552L34.7678 72.2316L20.895 67.3577Z"
               fill="url(#paint2_linear)"
             />
@@ -98,9 +98,9 @@ const Dashboard = () => {
                 y2="149.495"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#5498FF" />
-                <stop offset="0.515625" stop-color="#428EFF" />
-                <stop offset="1" stop-color="#297FFF" />
+                <stop stopColor="#5498FF" />
+                <stop offset="0.515625" stopColor="#428EFF" />
+                <stop offset={1} stopColor="#297FFF" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear"
@@ -110,9 +110,9 @@ const Dashboard = () => {
                 y2="89.2381"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#5498FF" />
-                <stop offset="0.515625" stop-color="#428EFF" />
-                <stop offset="1" stop-color="#297FFF" />
+                <stop stopColor="#5498FF" />
+                <stop offset="0.515625" stopColor="#428EFF" />
+                <stop offset={1} stopColor="#297FFF" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear"
@@ -122,9 +122,9 @@ const Dashboard = () => {
                 y2="83.5398"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#5498FF" />
-                <stop offset="0.515625" stop-color="#428EFF" />
-                <stop offset="1" stop-color="#297FFF" />
+                <stop stopColor="#5498FF" />
+                <stop offset="0.515625" stopColor="#428EFF" />
+                <stop offset={1} stopColor="#297FFF" />
               </linearGradient>
             </defs>
           </svg>
