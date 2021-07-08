@@ -46,7 +46,7 @@ const Index = () => (
 
       <Link href="/room/create">
         <a className="grid gap-1">
-          <Button outline>
+          <Button variant="outline">
             <svg
               className="mr-2"
               viewBox="0 0 24 24"

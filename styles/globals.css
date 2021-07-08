@@ -45,10 +45,13 @@ textarea::placeholder {
     @apply w-5 h-5 inline-block align-middle;
 }
 .button {
-    @apply transition-colors duration-300 py-3 px-4 font-medium rounded-lg align-middle inline-block text-center;
+    @apply transition-colors duration-300 py-2 px-6 font-medium rounded-lg align-middle inline-block text-center;
 }
 .button.button__sm {
     @apply py-2 px-3 text-sm;
+}
+.button.button__xl {
+    @apply py-3 px-8;
 }
 .button.button__primary:not(.button__outline) {
     background-color: var(--primary);
@@ -68,7 +71,6 @@ textarea::placeholder {
 }
 .button.button__secondary:not(.button__outline):hover {
     background-color: var(--secondary__hover);
-    color: red;
 }
 .button.button__primary, .button.button__danger {
     color: white;
@@ -90,4 +92,8 @@ textarea::placeholder {
     border-color: var(--secondary);
     color: #4D5E77;
     @apply border-2;
+}
+
+header .button {
+    @apply py-3;
 }
