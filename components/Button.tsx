@@ -13,6 +13,7 @@ interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariant
 }
 
+
 const defaultProps = {
   type: 'button',
   color: 'primary',
