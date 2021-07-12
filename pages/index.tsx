@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import RoomLayoutTransition from '../layouts/RoomLayoutTransition'
-import Input from '../components/input'
-import Button from '../components/button'
+import Input from '../components/Input'
+import Button from '../components/Button'
 
 const Index = () => (
   <>
